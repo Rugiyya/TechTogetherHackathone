@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Mono&display=swap');
+
+
+html {
+  box-sizing: border-box;
+  color: white;
+  font-family: "Didact Gothic", sans-serif;
+  background-color: skyblue;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  /* position: relative; */
+  background: #2b5876;
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+  background: linear-gradient(to right, #4e4376, #2b5876);
+  font-family: 'Roboto Mono', monospace;
+
+}
+header {
+  display: block;
+  position: absolute;
+  width: 100%;
+  padding: 5em 5em 0 5em;
+  margin-top: -15em;
+  color: white;
+}
+/* h1 {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  font-size: 3em;
+  text-shadow: 2px 2px #d79922;
+  border-bottom: 20px green;
+} */
+img{
+  margin-right: 8em;
+  width: 40%;
+ 
+
+}
+h1:hover {
+  text-decoration: none;
+  transition: .5s;
+}
+h2 {
+  margin-top: -1em;
+  font-size: 1.2em;
+}
+header:hover {
+  transition: 0.4s;
+  background: rgb(205, 202, 211);
+  box-shadow: 2px 2px 4px #000000;
+  margin-top: -16em;
+}
+.abstracts {
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  background: none;
+  color: black;
+  margin: 10em;
+  margin-top: 25em;
+  margin-right:12em;
+  box-shadow: 2px 2px 4px #000000;
+}
+.collapsible {
+  color: #444;
+  cursor: pointer;
+  padding: 1.5em;
+  width: 100%;
+  opacity: 0.8;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: #eab129;
+  opacity: 1;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #02075d;
+  color: white;
+}
+footer {
+  display: block;
+  background: white;
+  color: black;
+  padding: 1.5em;
+  font-size: 0.9em;
+  position: relative;
+  margin-bottom: 0em;
+}
